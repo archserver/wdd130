@@ -1,32 +1,48 @@
-body {
-    text-align: center;
-}
+/** {
+   border: 2px solid red;
+}*/
 
-nav {
+/*body {
+    text-align: center;
+}*/
+
+nav, footer {
+    text-align: center;
     background-color: steelblue;
     padding: 10px;
 }
 
 a {
+    font-size: 1.5em;
     color: white;
     margin: 40px;
-    line-height: 1.5em;
+    line-height: .75em;
 }
 
-h1, h2 {
+a:hover{
+    background-color: white;
     color: steelblue;
 }
 
+
+h1, h2 {
+    color: steelblue;
+    text-align: center;
+}
+
 img {
-    width: 800px;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
     border: 4px solid steelblue;
 }
 
 p {
+    text-align: center;
     padding: 10px;
 }
 
 #active {
-    background-color: white;
-    color: steelblue;
+    background-color: steelblue;
+    color: black;
 }
