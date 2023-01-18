@@ -2,9 +2,10 @@
    border: 2px solid red;
 }*/
 
-/*body {
-    text-align: center;
-}*/
+body {
+    margin: 0;
+    /*text-align: center;*/
+}
 
 nav, footer {
     text-align: center;
@@ -12,7 +13,15 @@ nav, footer {
     padding: 10px;
 }
 
+footer p {
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+    margin: 20px auto; 
+}
+
 a {
+    padding: 10px;
     font-size: 1.5em;
     color: white;
     margin: 40px;
@@ -24,6 +33,9 @@ a:hover{
     color: steelblue;
 }
 
+h1 {
+    margin: 50px;
+}
 
 h1, h2 {
     color: steelblue;
@@ -31,10 +43,12 @@ h1, h2 {
 }
 
 img {
+    padding: 25px;
     width: 40%;
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
     border: 4px solid steelblue;
+
 }
 
 p {
