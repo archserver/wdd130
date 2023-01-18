@@ -1,18 +1,28 @@
+/* Import selected fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Indie+Flower&family=Rowdies&display=swap');
+
 /** {
    border: 2px solid red;
 }*/
+
+body{
+    background-color: #8EB8E5;
+    /*font-family: Arial, Helvetica, sans-serif*/
+    font-family: Rowdies, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 header{
     background-color: #8EB8E5;
 }
 
-body{
-    background-color: #8EB8E5;
-}
-
 footer{
+    padding: 25px 50px;
     background-color: #8EB8E5;
     color: #031928;
+    margin-top: 50px;
 }
 
 footer p{
@@ -31,6 +41,10 @@ footer a:hover{
     color: yellow;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 div {
     max-width: 1600px;
 }
@@ -44,6 +58,7 @@ nav{
 }
 
 nav a {
+    padding: 35px;
     text-align: center;
     color: #031928;
     text-decoration: none;
@@ -59,6 +74,9 @@ a{
     text-align: center;
 }
 
+h2{
+    margin: 0;
+}
 h4{
     color: #031928;
 }
@@ -67,6 +85,13 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
 #hero-img{
     width: 100%;
 }
@@ -85,6 +110,9 @@ main section{
 }
 
 .home-title{
+    margin-top: 10px;
+    font-family: "Indie Flower";
+    font-size: 3em;
     color: #031928;
 }
 
@@ -93,9 +121,15 @@ main section{
 }
 
 .book, .join{
+    background-color:aquamarine;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
     color: #031928;
+    font-size: 18px;
     text-decoration: none;
 }
+
 .book:hover, .join:hover{
     background-color: aqua;
     color: #34252F;
@@ -103,14 +137,20 @@ main section{
 }
 
 .msg {
+    font-family: "Arimo";
+    padding: 35px;
     background-color: #7C99B4;
+    line-height: 1.5em;
 }
 
 .msg h2{
+    font-family: "Indie Flower";
     color: #031928;
 }
 
 .msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
     color: #031928;
 }
 
@@ -118,8 +158,17 @@ main section{
     width: 80px;
 }
 
-.icon {
+.icon{
+    padding-top: 10px;
     width: 80px;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+.river-card, .camping-card, .rapide-card{
+    margin: 200px 0;
 }
 
 
