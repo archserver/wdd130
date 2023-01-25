@@ -113,7 +113,7 @@
 } 
 .green4 {
   width: 100%; 
-  height: 100%%; 
+  height: 100%; 
   background-color: green; 
   grid-column: 2/3;
 } 
@@ -150,7 +150,7 @@
   width: 100%; 
   height: 275px; 
   background-color: gold; 
- position: relative height: -200px;
+  position: relative height: -200px;
 
 } 
 .blue5 {
