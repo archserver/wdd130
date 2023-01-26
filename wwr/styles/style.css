@@ -51,6 +51,11 @@ footer .social img{
     padding-top: 15px;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 div {
     max-width: 1600px;
 }
@@ -148,11 +153,6 @@ main section img{
     font-family: "Indie Flower";
     font-size: 3em;
     color: #031928;
-}
-
-.home-grid{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
 }
 
 .button-box{
