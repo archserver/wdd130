@@ -51,7 +51,7 @@ footer .social img{
     padding-top: 15px;
 }
 
-main {
+main.home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
