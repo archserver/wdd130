@@ -16,7 +16,7 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: 150px, auto;
+    grid-template-columns: 150px auto;
     background-color: #8EB8E5;
     opacity: .5;
 }
@@ -56,7 +56,8 @@ div {
 }
 
 #content{
-    margin: 0, auto;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 nav{
@@ -105,7 +106,7 @@ main section img{
 
 #hero{
     display: grid;
-    grid-template-columns: 1fr, 3fr, 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
 
@@ -181,7 +182,7 @@ main section img{
     line-height: 1.5em;
     grid-column: 6/10;
     grid-row:  6/7;
-    box-shadow: 5px, 5px, 10px, #6f7364;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .msg h2{
@@ -207,7 +208,7 @@ main section img{
 .card-img{
     border: 10px solid black;
     transition: transform .5s;
-    box-shadow: 5px, 5px, 10px, #6f7364;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .card-img:hover{
