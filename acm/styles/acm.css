@@ -150,7 +150,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 3fr 2fr;
   margin-top: -150px;
-  background-color: grey;
+  background-color: var(--accent2-color);
 }
 
 #hero-img{
@@ -170,12 +170,12 @@ nav a:hover {
 #hero-msg h1{
   padding: 35px;
   text-align: center;
-  color: azure;
+  color: var(--headline-color-on-color);
 }
 
 #hero-msg h2{
   text-align: center;
-  color: azure;
+  color: var(--headline-color-on-color);
 }
 .logo{
   width: 300px;
@@ -196,5 +196,4 @@ nav a:hover {
 
 .the-author h3{
   font-family: var(--heading-font);
-  
 }
