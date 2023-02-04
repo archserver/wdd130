@@ -30,9 +30,9 @@ Fonts are separated by a & */
 }
 
 /*Testing*/
-footer{
+/*footer{
   border: 2px solid red
-}
+}*/
 
 /*  Style sheet for Word of Grace by Alyona Chase  */
 /*Reset*/
@@ -96,7 +96,7 @@ footer{
   display: flex;
   /*justify-content: space-around;*/
   justify-content: end;
-  align-items: right;
+  align-items:flex-end;
 }
 footer p{
   font-size: .75em;
