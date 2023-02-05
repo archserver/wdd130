@@ -141,7 +141,7 @@ nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
+  color: black;
   background-color: var(--nav-hover-background-color);
   opacity: .9;
 }
