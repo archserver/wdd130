@@ -145,14 +145,12 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
   opacity: .9;
 }
-
 #hero{
   display: grid;
   grid-template-columns: 3fr 2fr;
   margin-top: -150px;
   background-color: var(--accent2-color);
 }
-
 #hero-img{
   width: 100%;
 }
@@ -166,16 +164,44 @@ nav a:hover {
   grid-row: 1/3;
   margin-top: 100px;
 }
-
 #hero-msg h1{
   padding: 35px;
   text-align: center;
   color: var(--headline-color-on-color);
 }
-
 #hero-msg h2{
   text-align: center;
   color: var(--headline-color-on-color);
+}
+#video-msg{
+  grid-column: 1/2;
+  grid-row: 1/3;
+  margin-top: 100px;
+}
+#video-msg h1{
+  padding: 25px;
+  text-align: left;
+  color: var(--headline-color-on-color);
+}
+#video-msg h2{
+  padding: 35px;
+  text-align: left;
+  color: var(--headline-color-on-color);
+}
+#video-msg a{
+  font-size: 1.25em;
+  padding: 45px;
+  color: var(--headline-color-on-color);
+}
+.videos-selection h1{
+  padding: 100px;
+  /*background-color: #7C99B4;*/
+  line-height: 3em;
+}
+.videos-selection img{
+  max-height: 200px;
+  max-width: 400px;
+  padding: 25px;
 }
 .logo{
   width: 300px;
@@ -185,7 +211,6 @@ nav a:hover {
   justify-self: center;
   align-self: center;
 }
-
 .the-author {
   padding: 100px 75px;
   /*background-color: #7C99B4;*/
